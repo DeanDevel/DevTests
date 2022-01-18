@@ -1,0 +1,59 @@
+{
+    "name": "kyslik/laravel-filterable",
+    "description": "Using URL query strings to filter Eloquent queries.",
+    "keywords": [
+        "kyslik",
+        "laravel-filterable",
+        "laravel",
+        "filter",
+        "query-strings"
+    ],
+    "homepage": "https://github.com/kyslik/laravel-filterable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Kiesel",
+            "email": "martin.kiesel@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/support": "^7.0",
+        "illuminate/database": "^7.0",
+        "illuminate/http": "^7.0"
+    },
+    "require-dev": {
+        "laravel/framework": "^7.0",
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kyslik\\LaravelFilterable\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kyslik\\LaravelFilterable\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kyslik\\LaravelFilterable\\FilterableServiceProvider"
+            ]
+        }
+    }
+}
