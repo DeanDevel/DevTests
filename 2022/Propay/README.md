@@ -42,11 +42,6 @@ Called - laraVuepropay -- change details in .env
 
 :grin: now your logged in...!!!!
 
-
-# Branding
-<img src="https://raw.githubusercontent.com/DeanDevel/DevTests/main/2022/SocialPlaces/images/0*SzXGvcdI4j0iEWpX.png" alt="LaraVue-Brand-Banner" width="300" height="80">
-
-
 # Test Instructions
 ProPay Assessment
 The candidate will need to create the following:
