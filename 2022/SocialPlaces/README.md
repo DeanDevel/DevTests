@@ -16,13 +16,13 @@ Called - laraVueForm -- change details in .env
 
 - **root@comp %** ```composer install```
 - **root@comp %** ```php artisan migrate --seed```
+- **root@comp %** ```php artisan ui bootstrap --auth``` :grin:
 - **root@comp %** ```php artisan serve```
-- **root@comp %** ```php artisan ui bootstrap --auth   ==== php artisan ui vue --auth```
-
 
 [//]: <> (// put here so I dont have to redo it again for another test => copy paste :-/)
 [//]: <> (// composer require laravel/ui)
 [//]: <> (// php artisan key:generate`)
+[//]: <> (// php artisan ui vue --auth`)
 [//]: <> (// php artisan session:table)
 [//]: <> (// npm install)
 [//]: <> (// npm run dev)
