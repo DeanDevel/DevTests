@@ -11,12 +11,14 @@ Called - laraVuepropay -- change details in .env
 
 - **root@comp %** ```composer install```
 - **root@comp %** ```php artisan key:generate```
+
 [//]: <> (// put here so I dont have to redo it again for another test => copy paste :-/)
 [//]: <> (// composer require laravel/ui)
 [//]: <> (// php artisan ui:auth)
 [//]: <> (// php artisan session:table)
 [//]: <> (// npm install)
 [//]: <> (// npm run dev)
+
 - **root@comp %** ```php artisan migrate --seed```
 - **root@comp %** ```php artisan serve```
 
