@@ -47,6 +47,9 @@ Called - laraVuepropay -- change details in .env
 ###### ADMIN LOGIN
 <img src="https://raw.githubusercontent.com/DeanDevel/DevTests/main/2022/Propay/images/admin.png" alt="create contact" width="300" height="150">
 
+###### ADMIN SHOWTABLE
+<img src="https://raw.githubusercontent.com/DeanDevel/DevTests/main/2022/Propay/images/showtable.png" alt="create contact" width="300" height="150">
+
 ###### CONTACT FORM
 <img src="https://raw.githubusercontent.com/DeanDevel/DevTests/main/2022/Propay/images/contactform.png" alt="create contact" width="300" height="150">
 
