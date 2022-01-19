@@ -1,6 +1,39 @@
 @extends('layouts.app')
 
 @section('content')
+
+<div class="container">
+    <div class="row justify-content-center">
+<div class="col-md-8">
+    <div class="card">
+        <div class="card-header">{{ __('Dashboard') }} - {{ __('You are logged in!') }}</div>
+
+        <div class="card-body">
+            @if (session('status'))
+                <div class="alert alert-success" role="alert">
+                    {{ session('status') }}
+                </div>
+            @endif   
+            
+            <h5>//INSTRUCTIONS</h5>
+            <ul>
+                <li>go to menu drop down - to add new create contact => <a href="{{ route('contact') }}">{{ __('Contact Form') }}</a></li>
+                <li>view all contacts here => <a href="{{ route('home') }}">{{ __('Home') }}</a></li>
+            </ul>                                       
+        </div>
+
+
+        <h4 style="text-align:center;">Create New Contact</h4>
+
+
+        <div class="card-body">
+
+
+
+
+
+
+
 <div class="container pt-5" style="max-width: 500px">
 
 <!-- Alert User -->
@@ -132,8 +165,27 @@
 
 <div class="form-group">
     <label>Interests (Multiple Selection)</label>
-    <input type="text" class="form-control" name="interests" id="interests">
 
+        <select class="form-control" name="interests">
+            <option value="HTML">HTML</option>
+            <option value="Jquery">Jquery</option>
+            <option value="CSS">CSS</option>
+            <option value="Bootstrap 3">Bootstrap 3</option>
+            <option value="Bootstrap 4">Bootstrap 4</option>
+            <option value="Java">Java</option>
+            <option value="Javascript">Javascript</option>
+            <option value="Angular">Angular</option>
+            <option value="Python">Python</option>
+            <option value="Hybris">Hybris</option>
+            <option value="SQL">SQL</option>
+            <option value="NOSQL">NOSQL</option>
+            <option value="NodeJS">NodeJS</option>
+        </select>
+
+
+
+
+    
     <!-- Show error -->
     @if ($errors->has('interests'))
         <div class="alert alert-danger">
@@ -149,10 +201,17 @@
     <input type="submit" name="send" value="Send" class="btn btn-dark btn-block">
 </form>
 </div>
+
+
+
+ 
+
+</div>
+
+
+
+</div>
+</div>
+</div>
+</div>
 @endsection
-
-
-
-
-
-
