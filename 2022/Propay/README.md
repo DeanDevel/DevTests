@@ -50,7 +50,7 @@ Vanilla PHP will be accepted, but it is advantageous to use a modern framework l
 - If you’re using Drupal, Joomla or WordPress: You need not send the assessment. Your journey can safely stop here.
 - If there are no migrations or seeds, kindly provide the SQL file for us to dump.The username and password for the web app also need to be provided, please. (We can’t seem to figure out encrypted passwords)
 
-- Pro-Tip! Avoid hard-coding values and duplicating code. Spaghetti code is also a big no-no. Hacking someone else’s GitHub / Bitbucket project isn’t going to fly either.
+- Pro-Tip! Avoid hard-coding values and duplicating code. Spaghetti code is also a big no-no. Hacking someone else’s GitHub / Bitbucket project isn’t going to fly either.
 Yet another 
-- Pro-Tip! Your application actually needs to work. Clear all migrations, rerun and test your application again.
+- Pro-Tip! Your application actually needs to work. Clear all migrations, rerun and test your application again.
 Kindly provide your assessment via any cloud platform after completion. Our mail server blocks any incoming compressed files.
