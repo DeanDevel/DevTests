@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
+use Carbon\Carbon;
 use App\Models\ContactUs;
 use Mail;
+use DB;
 
 class ContactController extends Controller
 {
@@ -13,7 +15,9 @@ class ContactController extends Controller
   }
 
   public function storeForm(Request $request) {
-      $this->validate($request, [ 
+     
+
+    $this->validate($request, [ 
 
           'name' => 'required',
           'surname' => 'required',
@@ -26,7 +30,24 @@ class ContactController extends Controller
 
        ]);
 
-      ContactUs::create($request->all());
+
+      //ContactUs::create($request->all());
+      $allinterests = json_encode($request->get('interests'));
+       DB::table('contact_us')->insert([
+        'name' => $request->get('name'),
+        'surname' => $request->get('surname'),
+        'idno' => $request->get('idno'),
+        'phone' => $request->get('phone'),
+        'email' => $request->get('email'),
+        'dob' => $request->get('dob'), 
+        'language' => $request->get('language'), 
+        'interests' => $allinterests,
+        'created_at' => Carbon::now(),
+        'updated_at' => Carbon::now(),
+       ]);
+
+
+
 
        ///SEND TO ADMIN EMAIL
       \Mail::send('mail', array(

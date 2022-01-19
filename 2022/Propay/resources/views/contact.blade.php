@@ -166,22 +166,42 @@
 <div class="form-group">
     <label>Interests (Multiple Selection)</label>
 
-        <select class="form-control" name="interests">
-            <option value="HTML">HTML</option>
-            <option value="Jquery">Jquery</option>
-            <option value="CSS">CSS</option>
-            <option value="Bootstrap 3">Bootstrap 3</option>
-            <option value="Bootstrap 4">Bootstrap 4</option>
-            <option value="Java">Java</option>
-            <option value="Javascript">Javascript</option>
-            <option value="Angular">Angular</option>
-            <option value="Python">Python</option>
-            <option value="Hybris">Hybris</option>
-            <option value="SQL">SQL</option>
-            <option value="NOSQL">NOSQL</option>
-            <option value="NodeJS">NodeJS</option>
-        </select>
-
+    <div class="form-check">
+    <input class="form-check-input" name="interests[]" type="checkbox" value="HTML" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+    HTML
+    </label>
+    </div>
+    <div class="form-check">
+    <input class="form-check-input" name="interests[]" type="checkbox" value="PHP" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+    PHP
+    </label>
+    </div>
+    <div class="form-check">
+    <input class="form-check-input" name="interests[]" type="checkbox" value="JQUERY" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+    JQUERY
+    </label>
+    </div>
+    <div class="form-check">
+    <input class="form-check-input" name="interests[]" type="checkbox" value="CSS" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+    CSS
+    </label>
+    </div>
+    <div class="form-check">
+    <input class="form-check-input" name="interests[]" type="checkbox" value="PYTHON" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+    PYTHON
+    </label>
+    </div>
+    <div class="form-check">
+    <input class="form-check-input" name="interests[]" type="checkbox" value="LARAVEL" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+    LARAVEL
+    </label>
+    </div>
 
 
 
