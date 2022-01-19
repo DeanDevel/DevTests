@@ -109,7 +109,15 @@
 
 <div class="form-group">
     <label>Language (Single Selection)</label>
-    <input type="text" class="form-control" name="language" id="language">
+    <select class="form-control" name="language" id="language">
+        <option>Afrikaans</option>
+        <option>English</option>
+        <option>German</option>  
+        <option>Chinese</option>
+        <option>Latin</option>
+        <option>French</option>                        
+    </select>
+
 
     <!-- Show error -->
     @if ($errors->has('language'))
