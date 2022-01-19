@@ -1,5 +1,3 @@
-[//]: <> (// This is confusing, I KNOW, so let me explain it to you :grin:)
-
 # LaraVue Contact Form / Admin - PHP ^7.0 | ^8.0 
 Simplistic Example of a Contact Form and Admin. FrontEnd is in Vue and Backend API is in Laravel.
 * Validation Handling
