@@ -11,6 +11,9 @@ Called - laraVuepropay -- change details in .env
 
 - **root@comp %** ```composer install```
 - **root@comp %** ```php artisan key:generate```
+- **root@comp %** ```php artisan migrate --seed```
+- **root@comp %** ```php artisan serve```
+
 
 [//]: <> (// put here so I dont have to redo it again for another test => copy paste :-/)
 [//]: <> (// composer require laravel/ui)
@@ -18,9 +21,6 @@ Called - laraVuepropay -- change details in .env
 [//]: <> (// php artisan session:table)
 [//]: <> (// npm install)
 [//]: <> (// npm run dev)
-
-- **root@comp %** ```php artisan migrate --seed```
-- **root@comp %** ```php artisan serve```
 
 
 ###### SHOW ME WORKING
