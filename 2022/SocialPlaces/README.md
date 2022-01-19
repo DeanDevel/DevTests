@@ -26,7 +26,7 @@ Called - laraVueForm -- change details in .env
 
 ###### SHOW LOGIN
 :checkered_flag: ```[BROWSER URL - CHANGE PORT]``` 
-- <a href="http://127.0.0.1:8002/login">http://127.0.0.1:8000/login</a>
+- <a href="http://127.0.0.1:8000/login">http://127.0.0.1:8000/login</a>
 
 ###### CREDENTIALS
 ```username: admin@test.com```
