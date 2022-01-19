@@ -1,7 +1,9 @@
 [//]: <> (// This is confusing, I KNOW, so let me explain it to you)
 # LaraVue CRUD application
 A web-based system where a user can log in and out of the system to manage people via CRUD operations.
-
+* Admin
+* Form
+* Mailtrap
 
 # Instructions
 ###### Incase it is needed :grin:
