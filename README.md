@@ -1,11 +1,7 @@
 [//]: <> (// This is confusing, I KNOW, so let me explain it to you :grin:)
 
-<p align="center" width="100%">
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DeanDevel)]()
-Displaying my total total contributions, current streak, and longest streak
-</p>
-
 
 # Welcome to my Developer Challenges / Tests 
 This is a space on the Github Realm of things to showcase my coding challenges from various companies 
