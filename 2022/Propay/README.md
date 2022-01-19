@@ -41,9 +41,6 @@ Called - laraVuepropay -- change details in .env
 
 # ScreenShots
 
-###### MAILTRAP
-<img src="https://raw.githubusercontent.com/DeanDevel/DevTests/main/2022/Propay/images/mailtrap.png" alt="create contact" width="300" height="150">
-
 ###### ADMIN LOGIN
 <img src="https://raw.githubusercontent.com/DeanDevel/DevTests/main/2022/Propay/images/showtable.png" alt="create contact" width="300" height="150">
 
@@ -53,6 +50,8 @@ Called - laraVuepropay -- change details in .env
 ###### CONTACT FORM
 <img src="https://raw.githubusercontent.com/DeanDevel/DevTests/main/2022/Propay/images/contactform.png" alt="create contact" width="300" height="150">
 
+###### MAILTRAP
+<img src="https://raw.githubusercontent.com/DeanDevel/DevTests/main/2022/Propay/images/mailtrap.png" alt="create contact" width="300" height="150">
 
 
 # Test Instructions
