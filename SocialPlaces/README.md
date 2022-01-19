@@ -12,7 +12,8 @@ Simplistic Example of a Contact Form and Admin. FrontEnd is in Vue and Backend A
 # Instructions
 ###### Incase it is needed :grin:
 :checkered_flag: ```[MAC OS BIG SUR TERMINAL ]```  
-Create database "first" laraVueForm - via Mysql Workbench
+Create Database "first" via Mysql Workbench -- 
+Called - laraVueForm -- change details in .env
 
 
 - **root@comp %** ```composer install```
