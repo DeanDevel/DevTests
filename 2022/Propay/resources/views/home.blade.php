@@ -25,7 +25,43 @@
                 <h4 style="text-align:center;">View all Contact</h4>
                 <div class="card-body">
 
-                get all contacts and display here... 
+
+            <table class="table">
+            <thead>
+                <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Surname</th>
+                <th scope="col">IDno</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Email</th>
+                <th scope="col">DOB</th>
+                <th scope="col">Language</th>
+                <th scope="col">Interests</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                    @foreach($showcontact as $data)
+                    <tr>
+                        <td>{{ $data->id}}</td>
+                        <td>{{ $data->name}}</td>
+                        <td>{{ $data->surname}}</td>
+                        <td>{{ $data->idno}}</td>
+                        <td>{{ $data->phone}}</td>
+                        <td>{{ $data->email}}</td>
+                        <td>{{ $data->dob}}</td>
+                        <td>{{ $data->language}}</td>
+                        <td>{{ $data->interests}}</td>
+                    </tr>
+                    @endforeach
+
+            </tbody>
+            </table>
+
+
+
+
 
                 </div>
 

@@ -203,9 +203,7 @@
     </label>
     </div>
 
-
-
-    
+   
     <!-- Show error -->
     @if ($errors->has('interests'))
         <div class="alert alert-danger">
@@ -213,9 +211,6 @@
         </div>
     @endif
 </div>
-
-
-
 
 
     <input type="submit" name="send" value="Send" class="btn btn-dark btn-block">

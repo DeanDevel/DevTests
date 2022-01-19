@@ -25,3 +25,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/contact-form', [ContactController::class, 'showForm'])->name('contact');
 
 Route::post('/contact-form', [ContactController::class, 'storeForm'])->name('contact.save');
+
