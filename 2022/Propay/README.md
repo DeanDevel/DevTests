@@ -3,12 +3,34 @@
 A web-based system where a user can log in and out of the system to manage people via CRUD operations.
 
 
-
-
-
 # Instructions
 ###### Incase it is needed :grin:
 :checkered_flag: ```[MAC OS BIG SUR TERMINAL ]```  
+Create Database "first" via Mysql Workbench -- 
+Called - laraVuepropay -- change details in .env
+
+- **root@comp %** ```composer install```
+- **root@comp %** ```php artisan key:generate```
+- **root@comp %** ```php artisan migrate --seed```
+- **root@comp %** ```php artisan serve```
+
+
+###### SHOW ME WORKING
+:checkered_flag: ```[BROWSER URL - CHANGE PORT]``` 
+- <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a>
+
+###### SHOW LOGIN
+:checkered_flag: ```[BROWSER URL - CHANGE PORT]``` 
+- <a href="http://127.0.0.1:8002/login">http://127.0.0.1:8000/login</a>
+
+###### CREDENTIALS
+```username: admin@test.com```
+```passcode: admin```
+
+```username: user@test.com```
+```passcode: secret```
+
+
 
 
 
