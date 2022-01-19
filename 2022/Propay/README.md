@@ -1,5 +1,5 @@
 [//]: <> (// This is confusing, I KNOW, so let me explain it to you)
-# LaraVue CRUD application
+# Laravel CRUD application
 A web-based system where a user can log in and out of the system to manage people via CRUD operations.
 * Admin
 * Form
@@ -9,7 +9,7 @@ A web-based system where a user can log in and out of the system to manage peopl
 ###### Incase it is needed :grin:
 :checkered_flag: ```[MAC OS BIG SUR TERMINAL ]```  
 Create Database "first" via Mysql Workbench -- 
-Called - laraVuepropay -- change details in .env
+Called - laravelpropay -- change details in .env
 
 - **root@comp %** ```composer install```
 - **root@comp %** ```php artisan migrate --seed```
