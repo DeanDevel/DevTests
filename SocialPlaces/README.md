@@ -12,6 +12,8 @@ Simplistic Example of a Contact Form and Admin. FrontEnd is in Vue and Backend A
 # Instructions
 ###### Incase it is needed :grin:
 :checkered_flag: ```[MAC OS BIG SUR TERMINAL ]```  
+Create database "first" laraVueForm - via Mysql Workbench
+
 
 - **root@comp %** ```composer install```
 - **root@comp %** ```php artisan key:generate```
@@ -38,25 +40,25 @@ Simplistic Example of a Contact Form and Admin. FrontEnd is in Vue and Backend A
 # Screenshots
 
 ###### create contact form
-<img src="https://raw.githubusercontent.com/DeanDevel/LaraVue-Form/main/images/sendmessage.png" alt="create contact" width="300" height="150">
+<img src="https://raw.githubusercontent.com/DeanDevel/DevTests/SocialPlaces/main/images/sendmessage.png" alt="create contact" width="300" height="150">
 
 
 ###### admin login
-<img src="https://raw.githubusercontent.com/DeanDevel/LaraVue-Form/main/images/adminlogin.png" alt="create contact" width="300" height="150">
+<img src="https://raw.githubusercontent.com/DeanDevel/DevTests/SocialPlaces/main/images/adminlogin.png" alt="create contact" width="300" height="150">
 
 
 ###### table with details of contacts
-<img src="https://raw.githubusercontent.com/DeanDevel/LaraVue-Form/main/images/tablecontacts.png" alt="create contact" width="300" height="200">
+<img src="https://raw.githubusercontent.com/DeanDevel/DevTests/SocialPlaces/main/images/tablecontacts.png" alt="create contact" width="300" height="200">
 
 
 
 ###### mail trap email
-<img src="https://raw.githubusercontent.com/DeanDevel/LaraVue-Form/main/images/mailtrapemail.png" alt="mail trap" width="150" height="200">
+<img src="https://raw.githubusercontent.com/DeanDevel/DevTests/SocialPlaces/main/images/mailtrapemail.png" alt="mail trap" width="150" height="200">
 
 
 
 # Branding
-<img src="https://raw.githubusercontent.com/DeanDevel/LaraVue-Form/main/images/0*SzXGvcdI4j0iEWpX.png" alt="LaraVue-Brand-Banner" width="300" height="80">
+<img src="https://raw.githubusercontent.com/DeanDevel/DevTests/SocialPlaces/main/images/0*SzXGvcdI4j0iEWpX.png" alt="LaraVue-Brand-Banner" width="300" height="80">
 
 
 
