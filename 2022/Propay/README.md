@@ -25,11 +25,7 @@ Called - laraVuepropay -- change details in .env
 [//]: <> (// npm run dev)
 
 
-###### SHOW ME WORKING
-:checkered_flag: ```[BROWSER URL - CHANGE PORT]``` 
-- <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a>
-
-###### SHOW ME LOGIN
+###### SHOW ME LOGIN DASHBOARD
 :checkered_flag: ```[BROWSER URL - CHANGE PORT]``` 
 - <a href="http://127.0.0.1:8000/login">http://127.0.0.1:8000/login</a>
 
